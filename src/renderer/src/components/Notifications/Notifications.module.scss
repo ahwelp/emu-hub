@@ -1,4 +1,4 @@
-@import '@renderer/scss/colors';
+@use '@renderer/scss/colors' as colors;
 
 .notificationsOverlay {
   position: fixed;
@@ -42,10 +42,10 @@
   }
 
   &.error {
-    background-color: $caution;
+    background-color: colors.$caution;
   }
 
   &.success {
-    background-color: $confirm;
+    background-color: colors.$confirm;
   }
 }

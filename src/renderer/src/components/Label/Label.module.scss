@@ -1,4 +1,4 @@
-@import '@renderer/scss/colors';
+@use '@renderer/scss/colors' as colors;
 
 .label {
   font-family:
@@ -6,9 +6,9 @@
     sans-serif;
   font-weight: 500;
   font-size: 1.2em;
-  color: $faded;
+  color: colors.$faded;
 
   span {
-    color: $fadedplus;
+    color: colors.$fadedplus;
   }
 }

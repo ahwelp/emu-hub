@@ -1,4 +1,4 @@
-@import '@renderer/scss/colors';
+@use '@renderer/scss/colors' as collors;
 
 .container {
   display: flex;

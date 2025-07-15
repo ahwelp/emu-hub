@@ -1,4 +1,4 @@
-@import '@renderer/scss/colors';
+@use '@renderer/scss/colors' as colors;
 
 .hg-theme-default {
   background-color: var(--background-dark);

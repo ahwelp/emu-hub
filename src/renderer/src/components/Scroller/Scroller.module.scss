@@ -1,4 +1,4 @@
-@import '@renderer/scss/colors.scss';
+@use '@renderer/scss/colors.scss' as colors;
 
 .container {
   width: 100%;

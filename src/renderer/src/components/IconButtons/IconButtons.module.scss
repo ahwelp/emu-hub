@@ -1,4 +1,4 @@
-@import '@renderer/scss/colors';
+@use '@renderer/scss/colors' as colors;
 
 .button {
   border: 2px solid;
@@ -33,14 +33,14 @@
       background-color: var(--primary);
     }
     &.caution {
-      background-color: $caution;
+      background-color: colors.$caution;
     }
     &.warning {
-      background-color: $warning;
+      background-color: colors.$warning;
       color: var(--background-dark);
     }
     &.confirm {
-      background-color: $confirm;
+      background-color: colors.$confirm;
     }
   }
 }

@@ -1,4 +1,4 @@
-@import '@renderer/scss/colors';
+@use '@renderer/scss/colors' as colors;
 
 .controllerForm {
   display: flex;
@@ -19,7 +19,7 @@
     Figtree Variable,
     sans-serif;
   font-size: 1.3rem;
-  color: $fadedminus;
+  color: colors.$fadedminus;
   transition: all 0.1s ease;
 
   &.active {
@@ -29,13 +29,13 @@
       background-color: var(--primary);
     }
     &.caution {
-      background-color: $caution;
+      background-color: colors.$caution;
     }
     &.warning {
-      background-color: $warning;
+      background-color: colors.$warning;
     }
     &.confirm {
-      background-color: $confirm;
+      background-color: colors.$confirm;
     }
   }
 }

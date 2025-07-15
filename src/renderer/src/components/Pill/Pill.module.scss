@@ -1,4 +1,4 @@
-@import '@renderer/scss/colors';
+@use '@renderer/scss/colors' as colors;
 
 .pill {
   display: flex;
@@ -9,5 +9,5 @@
   font-size: 1rem;
   font-family: Figtree Variable;
   gap: 0.5rem;
-  color: $text-secondary;
+  color: colors.$text-secondary;
 }

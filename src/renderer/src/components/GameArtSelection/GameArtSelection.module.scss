@@ -1,4 +1,4 @@
-@import '@renderer/scss/colors';
+@use '@renderer/scss/colors' as colors;
 
 .container {
   background-color: var(--background);
@@ -25,7 +25,7 @@
       justify-content: center;
       font-family: Figtree Variable;
       font-size: 1.3rem;
-      color: $fadedminus;
+      color: colors.$fadedminus;
 
       min-width: 250px;
 
@@ -74,7 +74,7 @@
 
     font-family: Figtree Variable;
     font-size: 1rem;
-    color: $faded;
+    color: colors.$faded;
 
     .showcaseWrapper {
       display: block;
